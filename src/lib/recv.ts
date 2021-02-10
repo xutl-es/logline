@@ -13,6 +13,7 @@ export class Receiver extends EventEmitter {
 		this.#stream = stream;
 		const onmessage = (msg: Buffer) => {
 			const line = msg.toString().trim();
+			this.emit('line', line);
 			if (this.#stream) {
 				this.#stream.write(line + EOL);
 			} else {
