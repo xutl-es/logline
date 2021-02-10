@@ -1,50 +1,50 @@
 {
-  "name": "@xutl/logline",
-  "version": "1.0.0",
-  "description": "Formatted Log Lines",
-  "main": "dist/lib/index.js",
-  "files": [
-    "dist/test/log.t.d.ts",
-    "dist/test/log.t.js",
-    "dist/test/sendrcv.t.d.ts",
-    "dist/test/format.t.d.ts",
-    "dist/test/sendrcv.t.js",
-    "dist/test/sendrcv.t.js.map",
-    "dist/test/format.t.js.map",
-    "dist/test/format.t.js",
-    "dist/test/log.t.js.map",
-    "dist/lib/format.js.map",
-    "dist/lib/send.js",
-    "dist/lib/send.js.map",
-    "dist/lib/format.js",
-    "dist/lib/log.d.ts",
-    "dist/lib/log.js",
-    "dist/lib/index.js",
-    "dist/lib/send.d.ts",
-    "dist/lib/recv.d.ts",
-    "dist/lib/index.js.map",
-    "dist/lib/log.js.map",
-    "dist/lib/recv.js.map",
-    "dist/lib/index.d.ts",
-    "dist/lib/format.d.ts",
-    "dist/lib/recv.js"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
-    "prepublishOnly": "rm -rf dist && npm run build",
-    "test": "xutltest 'dist/test/**/*.t.js'"
-  },
-  "keywords": [
-    "Logging",
-    "Formatting"
-  ],
-  "author": "Philipp Dunkel <pip@pipobscure.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^14.14.25",
-    "@xutl/test": "^1.0.2",
-    "@xutl/test-timers": "^1.0.1",
-    "typescript": "^4.1.4"
-  }
+	"name": "@xutl/logline",
+	"version": "1.0.1",
+	"description": "Formatted Log Lines",
+	"main": "dist/lib/index.js",
+	"files": [
+		"dist/test/log.t.d.ts",
+		"dist/test/log.t.js",
+		"dist/test/sendrcv.t.d.ts",
+		"dist/test/format.t.d.ts",
+		"dist/test/sendrcv.t.js",
+		"dist/test/sendrcv.t.js.map",
+		"dist/test/format.t.js.map",
+		"dist/test/format.t.js",
+		"dist/test/log.t.js.map",
+		"dist/lib/format.js.map",
+		"dist/lib/send.js",
+		"dist/lib/send.js.map",
+		"dist/lib/format.js",
+		"dist/lib/log.d.ts",
+		"dist/lib/log.js",
+		"dist/lib/index.js",
+		"dist/lib/send.d.ts",
+		"dist/lib/recv.d.ts",
+		"dist/lib/index.js.map",
+		"dist/lib/log.js.map",
+		"dist/lib/recv.js.map",
+		"dist/lib/index.d.ts",
+		"dist/lib/format.d.ts",
+		"dist/lib/recv.js"
+	],
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc --watch",
+		"prepublishOnly": "rm -rf dist && npm run build",
+		"test": "xutltest 'dist/test/**/*.t.js'"
+	},
+	"keywords": [
+		"Logging",
+		"Formatting"
+	],
+	"author": "Philipp Dunkel <pip@pipobscure.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^14.14.25",
+		"@xutl/test": "^1.0.2",
+		"@xutl/test-timers": "^1.0.1",
+		"typescript": "^4.1.4"
+	}
 }
